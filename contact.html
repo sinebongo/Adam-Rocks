@@ -105,25 +105,25 @@
                             <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                 <div class="control-group">
                                     <input type="text" class="form-control bg-transparent p-4" id="name"
-                                        placeholder="Your Name" required="required"
+                                        placeholder="Your Name" required="required" name="Name"
                                         data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
                                     <input type="email" class="form-control bg-transparent p-4" id="email"
-                                        placeholder="Your Email" required="required"
+                                        placeholder="Your Email" required="required" name="Email"
                                         data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
                                     <input type="text" class="form-control bg-transparent p-4" id="subject"
-                                        placeholder="Subject" required="required"
+                                        placeholder="Subject" required="required" name="Subject"
                                         data-validation-required-message="Please enter a subject" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
                                     <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message"
-                                        placeholder="Message" required="required"
+                                        placeholder="Message" required="required" name="Message"
                                         data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
@@ -215,6 +215,7 @@
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
