@@ -41,6 +41,8 @@
         format: 'LT'
     });
 
+    //resetting the form
+    document.getElementById("contactForm").reset();
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
