@@ -9184,3 +9184,22 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
 }/*# sourceMappingURL=style.css.map */
+
+.logos{
+  display: flex;
+  width: 80%;
+  height: 50%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.adamLogo{
+  width: 30%;
+  mix-blend-mode: color-burn;
+}
